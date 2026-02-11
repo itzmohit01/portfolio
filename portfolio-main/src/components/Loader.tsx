@@ -25,7 +25,7 @@ const Loader = () => {
         <div className="animate-bounce mb-8">
           <Code className="w-16 h-16 text-blue-400 mx-auto mb-4" />
           <h1 className="text-3xl font-bold bg-gradient-to-r from-white via-blue-100 to-blue-300 bg-clip-text text-transparent">
-            Bhanu Partap
+            Mohit Sharms
           </h1>
         </div>
         

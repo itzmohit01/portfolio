@@ -7,8 +7,8 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      category: 'Full-Stack Development',
+      title: 'E-Commerce Sales Prediction',
+      category: 'Predictive Analysis',
       description: 'Modern e-commerce solution with advanced features including real-time inventory, payment processing, and analytics dashboard. Completed in under 1 month.',
       image: '/images/ecommerce.png',
       tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],

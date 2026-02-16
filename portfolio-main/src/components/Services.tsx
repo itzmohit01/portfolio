@@ -4,23 +4,24 @@ import { Code, Settings, Image, Star } from 'lucide-react';
 const Services = () => {
   const services = [
     {
-      icon: Code,
-      title: 'Web Development',
-      description: 'Custom web applications built with modern frameworks and best practices for optimal performance and scalability.',
-      features: ['React & TypeScript', 'Responsive Design', 'API Integration', 'Performance Optimization']
-    },
-    {
-      icon: Settings,
-      title: 'System Architecture',
-      description: 'Scalable and robust system design that grows with your business needs while maintaining security and efficiency.',
-      features: ['Cloud Infrastructure', 'Database Design', 'Microservices', 'DevOps Integration']
-    },
-    {
-      icon: Image,
-      title: 'UI/UX Design',
-      description: 'User-centered design approach creating intuitive interfaces that enhance user experience and drive engagement.',
-      features: ['Wireframing', 'Prototyping', 'User Testing', 'Design Systems']
-    }
+  icon: Code,
+  title: 'Data Science',
+  description: 'Data-driven solutions built with advanced algorithms and best practices for accurate predictions and enterprise scalability.',
+  features: ['Machine Learning', 'Statistical Analysis', 'Data Visualization', 'Model Optimization']
+},
+{
+  icon: Settings,
+  title: 'Data Architecture',
+  description: 'Scalable and robust data architecture that grows with your business needs while maintaining security and processing efficiency.',
+  features: ['Data Pipelines', 'Database Management', 'Big Data Systems', 'Cloud Integration']
+},
+{
+  icon: Image,
+  title: 'Data Visualization',
+  description: 'User-focused visualization approach creating intuitive dashboards that enhance insight discovery and drive engagement.',
+  features: ['Dashboard Design', 'Reporting', 'User Analytics', 'Visualization Tools']
+}
+
   ];
 
   return (

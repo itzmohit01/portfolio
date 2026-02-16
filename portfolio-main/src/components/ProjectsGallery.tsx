@@ -17,45 +17,24 @@ const ProjectsGallery = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
   const allProjects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      category: 'Full-Stack Development',
-      description: 'Modern e-commerce solution with advanced features including real-time inventory, payment processing, and analytics dashboard.',
-      longDescription: 'A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart functionality, secure payment processing with Stripe, real-time inventory tracking, and detailed analytics dashboard for business insights.',
+      title: 'E-Commerce Sales Prediction',
+      category: 'Predictive Analysis',
+      description: 'Modern e-commerce analytics solution with advanced features including sales forecasting, demand analysis, and insights dashboard.',
+      longDescription: 'A comprehensive e-commerce analytics platform built with Python and Machine Learning, featuring data preprocessing, sales prediction, customer behavior analysis, visualization dashboards, secure data processing, real-time analytics tracking, and performance optimization.',
       image: 'https://inc42.com/wp-content/uploads/2022/06/Ecommerce-Industry.jpg',
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      tech: ['Python', 'Pandas', 'Scikit-learn', 'TensorFlow'],
       link: 'https://club29ratia.myshopify.com/'
     },
     {
       id: 2,
-      title: 'Shoes AR Website',
-      category: 'Web Application',
-      description: 'Sport shoes AR experience and e-commerce. Built for interactive product showcasing and shopping.',
-      longDescription: 'A sport shoes AR website for interactive product showcasing and e-commerce. Built with React, AR.js, and Three.js.',
+      title: 'Shoes Sales Analytics System',
+      category: 'Machine Learning',
+      description: 'Sports shoes sales analytics and prediction platform. Built for customer insights extraction and demand forecasting.',
+      longDescription: 'A sports shoes analytics platform for sales prediction and customer segmentation. Built with Python, Machine Learning models, and visualization tools for interactive dashboards and business decision optimization.',
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop',
-      tech: ['React', 'Three.js', 'AR.js', 'E-Commerce'],
+      tech: ['Python', 'NumPy', 'Scikit-learn', 'Matplotlib'],
       link: 'https://animeshtripathii.github.io/shoe-ar/'
     },
-    {
-      id: 3,
-      title: 'AI-Powered Learning Platform',
-      category: 'EdTech',
-      description: 'Intelligent learning platform with personalized content recommendations and progress tracking.',
-      longDescription: 'An AI-powered educational platform that provides personalized learning experiences, adaptive content recommendations, progress tracking, interactive quizzes, video streaming, and comprehensive analytics for educators.',
-      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop',
-      tech: ['React', 'AI/ML', 'Node.js', 'TensorFlow'],
-
-    },
-    {
-      id: 4,
-      title: 'Real Estate Management',
-      category: 'Business Application',
-      description: 'Complete real estate management solution with property listings, virtual tours, and CRM integration.',
-      longDescription: 'A comprehensive real estate management system featuring property listings with high-quality images, virtual tour integration, lead management CRM, mortgage calculator, property comparison tools, and agent dashboard.',
-      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop',
-      tech: ['React', 'Node.js', 'MongoDB', 'AWS S3'],
-      link: '#',
-      github: '#'
-    }
   ];
 
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);

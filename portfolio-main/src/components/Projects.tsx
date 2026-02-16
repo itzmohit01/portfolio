@@ -20,19 +20,10 @@ const Projects = () => {
       category: 'Machine Learning',
       description: 'Sport shoes AR experience and e-commerce. Built for interactive product showcasing and shopping.',
       image: '/images/shoes.png',
-      tech: ['React', 'Three.js', 'AR.js', 'E-Commerce'],
+      tech: ['Python', 'NumPy', 'Scikit-learn', 'Matplotlib'],
       link: 'https://animeshtripathii.github.io/shoe-ar/',
       external: true
     },
-    {
-      title: 'AI-Powered Learning Platform',
-      category: 'EdTech',
-      description: 'Intelligent learning platform with personalized content recommendations and progress tracking.',
-      image: '/images/learning.png',
-      tech: ['React', 'AI/ML', 'Node.js', 'TensorFlow'],
-      link: 'https://bhanu-partap-13.github.io/60DaysOfJava/',
-      external: true
-    }
   ];
 
   return (

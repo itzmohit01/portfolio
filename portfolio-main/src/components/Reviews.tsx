@@ -22,24 +22,6 @@ const Reviews = () => {
       language: 'English'
     },
     {
-      name: 'Gurpreet Singh',
-      position: 'Director, Punjab Tech',
-      company: 'Punjab Tech',
-      rating: 5,
-      review: 'ਬਹੁਤ ਵਧੀਆ ਕੰਮ ਕੀਤਾ ਹੈ! ਸਮਾਂ ਤੇ ਪ੍ਰੋਜੈਕਟ ਮਿਲ ਗਿਆ ਤੇ ਕੁਆਲਿਟੀ ਵੀ ਬਹੁਤ ਵਧੀਆ ਸੀ। ਸਿੱਖਰ ਦੀ ਸਿਫਾਰਸ਼!',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
-      language: 'Punjabi'
-    },
-    {
-      name: 'Anita Patel',
-      position: 'CTO, Mumbai Innovations',
-      company: 'Mumbai Innovations',
-      rating: 5,
-      review: 'Kamaal ka technical expertise hai! Website bilkul perfect bani hai aur business mein kaafi improvement aaya hai. Great collaboration!',
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
-      language: 'Hindi'
-    },
-    {
       name: 'Vikram Reddy',
       position: 'Managing Director',
       company: 'Hyderabad Digital',
@@ -48,15 +30,6 @@ const Reviews = () => {
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
       language: 'English'
     },
-    {
-      name: 'Manpreet Kaur',
-      position: 'Founder, Chandigarh Apps',
-      company: 'Chandigarh Apps',
-      rating: 5,
-      review: 'ਸ਼ਾਨਦਾਰ ਡਿਵੈਲਪਰ ਹੈ! ਸਾਡੀ ਸਾਰੀਆਂ ਲੋੜਾਂ ਪੂਰੀਆਂ ਕੀਤੀਆਂ ਤੇ Project ਬਿਲਕੁਲ ਸਮਾਂ ਤੇ ਤਿਆਰ ਕੀਤਾ।',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
-      language: 'Punjabi'
-    }
   ];
 
   const getLanguageFlag = (language: string) => {

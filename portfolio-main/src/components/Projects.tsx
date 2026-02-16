@@ -11,7 +11,7 @@ const Projects = () => {
       category: 'Predictive Analysis',
       description: 'Modern e-commerce solution with advanced features including real-time inventory, payment processing, and analytics dashboard. Completed in under 1 month.',
       image: '/images/ecommerce.png',
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      tech: ['Python', 'Pandas', 'Scikit-learn', 'TensorFlow'],
       link: 'https://club29ratia.myshopify.com/',
       external: true
     },

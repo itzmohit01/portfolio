@@ -43,7 +43,7 @@ const ProjectsGallery = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
       longDescription: 'An AI-powered educational platform that provides personalized learning experiences, adaptive content recommendations, progress tracking, interactive quizzes, video streaming, and comprehensive analytics for educators.',
       image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop',
       tech: ['React', 'AI/ML', 'Node.js', 'TensorFlow'],
-      link: 'https://bhanu-partap-13.github.io/60DaysOfJava/'
+
     },
     {
       id: 4,

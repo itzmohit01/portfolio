@@ -112,6 +112,12 @@ const Hero = () => {
             >
               Get In Touch
             </button>
+            <a
+              href="https://drive.google.com/file/d/1PeY0uhLuDR8cVpmX2BVdg8g8vE0VL1ED/view?usp=sharing"
+              className="border border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-white/10 cursor-hover"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>

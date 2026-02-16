@@ -16,8 +16,8 @@ const Projects = () => {
       external: true
     },
     {
-      title: 'Shoes AR Website',
-      category: 'Web Application',
+      title: 'Shoes Sales Analytics System',
+      category: 'Machine Learning',
       description: 'Sport shoes AR experience and e-commerce. Built for interactive product showcasing and shopping.',
       image: '/images/shoes.png',
       tech: ['React', 'Three.js', 'AR.js', 'E-Commerce'],

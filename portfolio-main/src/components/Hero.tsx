@@ -73,51 +73,70 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 flex items-center justify-center min-h-[80vh] px-8">
-        <div className="text-center max-w-4xl">
-          <div className="flex items-center justify-center mb-6">
-            <div className="flex space-x-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" style={{ animationDelay: `${i * 200}ms` }} />
-              ))}
+        <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl">
+          {/* Profile Image */}
+          <div className="flex-shrink-0 animate-fade-in">
+            <div className="relative">
+              {/* Glowing border effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 rounded-3xl blur-lg opacity-75"></div>
+              {/* Profile image container */}
+              <div className="relative w-80 h-80 rounded-3xl overflow-hidden border-2 border-blue-400/50 shadow-2xl">
+                <img 
+                  src="/images/profile%20pic.jpeg"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
-            <span className="ml-3 text-sm text-gray-300 animate-fade-in">Trusted by 50+ clients</span>
           </div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in">
-            <span className="inline-block animate-pulse" style={{ animationDelay: '0ms' }}>Transforming</span>{' '}
-            <span className="inline-block animate-pulse" style={{ animationDelay: '200ms' }}>Ideas</span>{' '}
-            <span className="inline-block animate-pulse" style={{ animationDelay: '400ms' }}>Into</span>
-            <span className="block text-white bg-gradient-to-r from-gray-300 to-gray-100 bg-clip-text text-transparent">
-              <span className="inline-block animate-pulse" style={{ animationDelay: '600ms' }}>Digital</span>{' '}
-              <span className="inline-block animate-pulse" style={{ animationDelay: '800ms' }}>Excellence</span>
-            </span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in delay-300">
-            Professional developer specializing in cutting-edge web applications, 
-            delivering innovative solutions that drive business growth and exceed client expectations.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in delay-500">
-            <button 
-              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center group cursor-hover"
-            >
-              View My Work
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="border border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-white/10 cursor-hover"
-            >
-              Get In Touch
-            </button>
-            <a
-              href="https://drive.google.com/file/d/1PeY0uhLuDR8cVpmX2BVdg8g8vE0VL1ED/view?usp=sharing"
-              className="border border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-white/10 cursor-hover"
-            >
-              Resume
-            </a>
+
+          {/* Text Content */}
+          <div className="text-center lg:text-left max-w-2xl">
+            <div className="flex items-center justify-center lg:justify-start mb-6">
+              <div className="flex space-x-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" style={{ animationDelay: `${i * 200}ms` }} />
+                ))}
+              </div>
+              <span className="ml-3 text-sm text-gray-300 animate-fade-in">Trusted by 50+ clients</span>
+            </div>
+            
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in">
+              <span className="inline-block animate-pulse" style={{ animationDelay: '0ms' }}>Transforming</span>{' '}
+              <span className="inline-block animate-pulse" style={{ animationDelay: '200ms' }}>Ideas</span>{' '}
+              <span className="inline-block animate-pulse" style={{ animationDelay: '400ms' }}>Into</span>
+              <span className="block text-white bg-gradient-to-r from-gray-300 to-gray-100 bg-clip-text text-transparent">
+                <span className="inline-block animate-pulse" style={{ animationDelay: '600ms' }}>Digital</span>{' '}
+                <span className="inline-block animate-pulse" style={{ animationDelay: '800ms' }}>Excellence</span>
+              </span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl leading-relaxed animate-fade-in delay-300">
+              Professional developer specializing in cutting-edge web applications, 
+              delivering innovative solutions that drive business growth and exceed client expectations.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in delay-500">
+              <button 
+                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center"
+              >
+                View My Work
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+              <button 
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="border border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-white/10 cursor-hover"
+              >
+                Get In Touch
+              </button>
+              <a
+                href="https://drive.google.com/file/d/1PeY0uhLuDR8cVpmX2BVdg8g8vE0VL1ED/view?usp=sharing"
+                className="border border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-white/10 cursor-hover"
+              >
+                Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

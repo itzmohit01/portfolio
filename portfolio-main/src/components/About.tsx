@@ -22,21 +22,21 @@ function useMagnetEffect() {
 
 const About = () => {
   const stats = [
-    { icon: Trophy, number: '50+', label: 'Projects Completed', color: 'text-blue-600' },
-    { icon: Users, number: '30+', label: 'Happy Clients', color: 'text-green-600' },
+    { icon: Trophy, number: '15+', label: 'Projects Completed', color: 'text-blue-600' },
+    { icon: Users, number: '10+', label: 'Happy Clients', color: 'text-green-600' },
     { icon: Clock, number: '2+', label: 'Years Experience', color: 'text-purple-600' },
-    { icon: Award, number: '15+', label: 'Awards Won', color: 'text-orange-600' }
+    { icon: Award, number: '15+', label: 'Certificates', color: 'text-orange-600' }
   ];
 
   const technologies = [
-    { name: 'React', level: '95%', color: 'bg-blue-500' },
-    { name: 'Node.js', level: '90%', color: 'bg-green-500' },
-    { name: 'TypeScript', level: '85%', color: 'bg-blue-600' },
-    { name: 'Python', level: '80%', color: 'bg-yellow-500' },
-    { name: 'HTML', level: '98%', color: 'bg-orange-500' },
-    { name: 'CSS', level: '95%', color: 'bg-blue-400' },
-    { name: 'PHP', level: '75%', color: 'bg-purple-500' },
-    { name: 'MongoDB', level: '85%', color: 'bg-green-600' }
+    { name: 'Python & Pandas', level: '95%', color: 'bg-blue-500' },
+    { name: 'Scikit-Learn', level: '90%', color: 'bg-green-500' },
+    { name: 'Seaborn', level: '85%', color: 'bg-blue-600' },
+    { name: 'Matplotlib', level: '80%', color: 'bg-yellow-500' },
+    { name: 'SQL', level: '98%', color: 'bg-orange-500' },
+    { name: 'TensorFlow', level: '95%', color: 'bg-blue-400' },
+    { name: 'PowerBI', level: '75%', color: 'bg-purple-500' },
+    { name: 'Tableau', level: '85%', color: 'bg-green-600' }
   ];
 
   const magnet = useMagnetEffect();

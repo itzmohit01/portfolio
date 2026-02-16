@@ -55,8 +55,8 @@ const About = () => {
             <span className="text-blue-600 dark:text-blue-400 block">My Expertise</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Passionate full-stack developer with expertise in modern web technologies, 
-            dedicated to creating exceptional digital experiences that drive business success.
+            Passionate data scientist with expertise in advanced analytical methods,
+            dedicated to extracting actionable insights that drive strategic business success.
           </p>
         </div>
 

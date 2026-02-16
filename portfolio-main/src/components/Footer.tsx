@@ -63,7 +63,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="z-10 text-gray-600 dark:text-gray-300 text-sm flex flex-col items-center gap-1">
-        <span>Made with <span className="text-red-500 animate-pulse">❤️</span> by Bhanu Partap</span>
+        <span>Made with <span className="text-red-500 animate-pulse">❤️</span> by Mohit Sharma</span>
         <span>&copy; {new Date().getFullYear()} All rights reserved.</span>
       </div>
     </footer>
